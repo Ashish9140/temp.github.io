@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="light">
+
+    <nav>
+        <span>Home</span>
+        <label class="switch2">
+            <input type="checkbox" name="checkbox">
+            <span class="slider2"></span>
+        </label>
+    </nav>
+
+    <div class="wrapper">
+        <div class="heading">
+            <h3>Temperature Converter</h3>
+        </div>
+        <div class="main-box">
+            <div>
+                <label for="exampleFormControlInput1">Value</label> <br>
+                <input type="number" class="valueToConvert" id="exampleFormControlInput1">
+            </div>
+            <div>
+                <label for="exampleFormControlTextarea2">From</label> <br>
+                <select id="exampleFormControlTextarea2" class="fromS">
+                    <option class="Celsius1">Celsius</option>
+                    <option class="Fahrenheit1">Fahrenheit</option>
+                    <option class="Kelvin1">Kelvin</option>
+                </select>
+            </div>
+            <div>
+                <label for="exampleFormControlTextarea3">To</label> <br>
+                <select id="exampleFormControlTextarea3" class="toS">
+                    <option class="Celsius2">Celsius</option>
+                    <option class="Fahrenheit2">Fahrenheit</option>
+                    <option class="Kelvin2">Kelvin</option>
+                </select>
+            </div>
+            <div>
+                <button class="convert">Convert</button>
+            </div>
+            <div>
+                <label for="exampleFormControlInput1">Result</label> <br>
+                <input type="text" class="result" id="exampleFormControlInput1" readonly>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
